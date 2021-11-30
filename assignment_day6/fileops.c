@@ -9,11 +9,11 @@
 int main()
 {
     int fd;
-    fd=open("desd.txt",O_WRONLY);
+    fd=open("desd.txt",O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 
     if(-1==fd)
     {
-        printf("Error: %d\n", errno);
+        perror("Error: \n");
         exit(EXIT_FAILURE);
     }
 
@@ -21,3 +21,4 @@ int main()
     close(fd);
     return 0;
 }
+
