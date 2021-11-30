@@ -7,7 +7,12 @@ int main()
 {
     int fd;
     fd=open("desd.txt",O_WRONLY);
-    write(fd,'DESD',4);
+
+    if(-1==fd)
+    {
+        printf("Error\n");
+    }
+    write(fd,"DESD",4);
     close(fd);
     return 0;
 }
