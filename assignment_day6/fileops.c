@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include<stdlib.h>
+#include<errno.h>
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 
     if(-1==fd)
     {
-        printf("Error\n");
+        printf("Error: %d\n", errno);
         exit(EXIT_FAILURE);
     }
 
