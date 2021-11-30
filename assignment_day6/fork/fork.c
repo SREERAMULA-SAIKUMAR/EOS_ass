@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
     pid_t id;
-    printf("Before fork");
+    printf("Before fork\n");
     id=fork();
-    printf("After fork");
+    printf("After fork: %d\n",id);
     return 0;
 }
