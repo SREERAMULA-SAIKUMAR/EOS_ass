@@ -8,5 +8,16 @@ int main(int argc, char *argv[])
     printf("Before fork\n");
     id=fork();
     printf("After fork: %d\n",id);
+
+    if(0==id)
+    {
+        printf("CHILD\n");
+
+    }
+    else
+    {
+        printf("PARENT\n");
+
+    }
     return 0;
 }
