@@ -9,11 +9,11 @@
 int main(int argc, char const *argv[])
 {
     int fd;
-    fd=open("desd.txt",O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
+    fd=open("desd.txt",O_WRONLY);
 
     if(-1==fd)
     {
-        perror("Error: \n");
+        printf("Error: %d\n", errno);
         exit(EXIT_FAILURE);
     }
 
