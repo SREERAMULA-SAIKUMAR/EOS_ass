@@ -22,3 +22,8 @@
 
 - Uniprocessor
 - Multiprocessor
+- objdump -S
+- Machine Code
+- .text Section
+- Cross-Compiler
+- arm-linux-gnueabi-

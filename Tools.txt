@@ -1,4 +1,0 @@
-TOOLS:
- -shutter
- -typora
- -visual studio code
