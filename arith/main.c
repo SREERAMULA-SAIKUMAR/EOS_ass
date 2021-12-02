@@ -1,10 +1,14 @@
 #include<stdio.h>
-int main()
+
+int main(int argc, char const *argv[])
 {
-	int sum=0,diff=0;
-    sum=add(10,20);
-    printf("addition: %d\n",sum);
-    diff=sub(10,20);
-    printf("substraction: %d\n",diff);
+	
+    int result = 0;
+    result = add(10, 20);
+    printf("Addition: %d\n", result);
+
+    result = sub(10, 20);
+    printf("Substraction: %d\n", result);
     return 0;
 }
+

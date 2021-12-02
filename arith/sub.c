@@ -1,4 +1,7 @@
-int sub(int a,int b)
+int sub(int a, int b)
 {
-    return a-b;
+    int diff = 0;
+    diff = a - b;
+    return diff;
 }
+
