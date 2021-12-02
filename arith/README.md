@@ -1,3 +1,6 @@
-PROGRAM:
+### Program
 
-Implemented Arithmetic operaions.
+> ```
+> Implemented Arithmetic operaions
+> ```
+
