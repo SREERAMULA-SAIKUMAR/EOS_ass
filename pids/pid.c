@@ -11,5 +11,6 @@ int main(int argc, char *argv[])
 
     printf("Process ID = %d\n",id);
     printf("Parent process ID = %d\n",pa_id);
+    return 0;
 }
 
