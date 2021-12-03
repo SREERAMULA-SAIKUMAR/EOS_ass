@@ -85,3 +85,15 @@
 4. Waiting
 5. Exit
 
+## Threads
+
+## Multi*
+- Multiprogramming
+- Multitasking
+- Multiprocessing
+- Multi threading
+## valgrind
+
+## Exec
+
+## 
