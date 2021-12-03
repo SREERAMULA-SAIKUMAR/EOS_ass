@@ -54,11 +54,34 @@
 
 - Using the library => -lname -Lpath
 
+## System call vs Library calls
+
 ## PID and PPID
 
 - getpid()
 - getppid()
 
+## Concepts
+- Address Space
+- User Space
+- Kernal Space
+- Segmentation Fault
+- PCB - data structure to hold the information about the process
+
+
+- System call vs Library call
+- open, read, write, close 
 
 ## Fork()
+## Pipes
+
+## FIFOs
+
+## Process State
+
+1. Create
+2. Ready
+3. Running
+4. Waiting
+5. Exit
 
