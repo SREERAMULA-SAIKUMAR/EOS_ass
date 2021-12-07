@@ -15,3 +15,4 @@ sub.o: sub.c
 	$(CC) -c -o sub.o sub.c
 clean:
 	rm -rf *.o projbin
+
