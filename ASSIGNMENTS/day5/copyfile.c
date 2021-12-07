@@ -17,7 +17,8 @@ int main(int argc, char const *argv[])
         close(fd_one); 
         return; 
     }
-    //else
+    else
+    {
         fd_two = open("Destination_file.txt", O_WRONLY); 
         while(read(fd_one, &buf, 1)) 
         { 
@@ -27,5 +28,7 @@ int main(int argc, char const *argv[])
         close(fd_one); 
         close(fd_two);
         return 0;
+    }
 }
+
 
